@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    max-width: 100%;
+
+}
+.gradient{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.name-1{
+    width: 425px;
+    height: 54px;
+    margin-left: 60px;
+}
+
+.email-1{
+    width: 425px;
+    height: 54px;
+    margin-left: 5px;
+}
+.subscribe-primary{
+    background-color: rgb(44, 91, 30);
+    width: 174px;
+    height: 53px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    border: 1px solid white;
+    z-index: -3;
+}
+.subscribe-primary:hover{
+    text-decoration: underline;
+}
+
+.subscribe-1{
+    background-color: #e55b00;
+    width: 139px;
+    height: 54px;
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 7px;
+    border-style: none;
+}
+.subscribe-1:hover{
+    text-decoration: underline;
+}
+.travel-advice{
+    color: rgb(152, 152, 152);
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.fav-countries{
+    background-color:#efefef;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    padding-top: 75px;
+  
+}
+.fav-countries h2{
+ font-size: 48px;
+ font-weight: 700;
+ color: black;
+
+}
+.fav-countries .one{
+    font-size: 46px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: 15px;
+    left: -260px;
+}
+.fav-countries .two{
+    font-size: 46px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 220px;
+}
+.fav-countries .three{
+    font-size: 46px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: -265px;
+    left: 620px;
+}
+.fav-countries .four{
+    font-size: 46px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: -265px;
+    left: 720px;
+}
+
+.gradient-overlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 705px;
+background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0));
+z-index: 1;
+}
+.nav li a{
+    color: rgb(255, 255, 255);
+}
+.nav li a:hover{
+  color: rgba(74, 74, 74, 0.749)!important;
+}
+
+.dropdown-menu li a{
+    color: black;
+}
+.dropdown-menu li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.nav-item .dropdown-menu{  
+    min-width: 109px;
+}
+.nav-item .dropdown-menu .dropdown-item:hover{
+   color: black!important;
+}
+
+.scheduled-exp{
+    width: 299px;
+    height: 59px;
+    background-color: #31541c;
+    color: white;
+    margin-left: 150px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.scheduled-exp:hover{
+    text-decoration: underline;
+}
+.view-all-country{
+    margin-top: 35px;
+    width: 244px;
+    height: 59px;
+    background-color: #31541d;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+.view-all-country:hover{
+    text-decoration: underline;
+}
+
+.image-container {
+    width: 374px;
+    height: 500px;
+    margin-right: 7px;
+    overflow: hidden;
+    position: relative;
+}
+
+.country-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s ease-out;
+    
+}
+
+.image-container:hover .country-image {
+    transform: scale(1.1);
+}
+
+.country-name {
+    position: absolute;
+    bottom: 165px; 
+    left: 185px;
+    transform: translateX(-50%);
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    transition: font-size 0.3s ease, color 0.3s ease; 
+    pointer-events: none; 
+}
+
+.region-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-container {
+    width: 503px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.region-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s ease-out;
+}
+
+.image-container:hover .region-image {
+    transform: scale(1.1);
+}
+
+.region-name {
+    position: absolute;
+    bottom: 20px;
+    left: 120px;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    transition: transform 0.7s ease-out;
+    pointer-events: none;
+}
+
+.latest-posts-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-container {
+    width: 503px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.latest-post-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s ease-out;
+}
+
+.image-container:hover .latest-post-image {
+    transform: scale(1.1);
+}
+
+.post-title {
+    position: absolute;
+    bottom: 20px;
+    left: 270px;
+    transform: translateX(-50%);
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    transition: transform 0.7s ease-out;
+    pointer-events: none;
+    width: 500px;
+}
+
+.travel-tips-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-container {
+    width: 503px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.travel-tip-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s ease;
+}
+
+.image-container:hover .travel-tip-image {
+    transform: scale(1.1);
+}
+
+.tip-title {
+    position: absolute;
+    bottom: 20px;
+    left: 270px;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    transition: transform 0.7s ease-out;
+    pointer-events: none;
+    width: 500px;
+}
+
+.foot-link li{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.foot-link h2{
+    padding-bottom: 20px;
+}
+
+.all-post{
+    margin-bottom: 80px;
+    background-color: #31541c;
+    color: white;
+    width: 148px;
+    height: 59px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.all-post:hover{
+    text-decoration: underline;
+}
+
+.join-subscribe{
+    width: 140px;
+    height: 54px;
+    background-color:#e55b00 ;
+    color: white;
+     margin-left: 5px;
+     border-style: none;
+     font-weight: 500;
+}
+.join-subscribe:hover{
+    text-decoration: underline;
+}
+
+.navbar-background {
+    background-color: #31541c;
+    width: 1519px!important;
+    height: 80px!important; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-logo {
+    position: fixed;
+    left: 30px;
+    top: 10px;
+    z-index: 3;
+}
+
+.navbar-menu {
+    width: calc(100% - 60px); 
+    position: fixed;
+    top: 0;
+    left: 60px; 
+    z-index: 3;
+}

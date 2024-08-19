@@ -1,0 +1,642 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+     
+}
+.section1{
+ background:linear-gradient(to right,rgb(0,0,0,1).25%,rgba(0,0,0,.7).10%,rgba(0,0,0,.4)25%, rgba(0,0,0,0)),url( https://againstthecompass.com/wp-content/uploads/2023/03/DSC0621611.jpeg);
+height: 750px;
+width: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+ 
+ 
+ 
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    z-index: 1;
+    
+    
+    
+    
+}
+
+
+
+.logo{
+    margin-left: 40px;
+    cursor: pointer; 
+    margin-top: -10px; 
+    
+   
+}
+
+
+nav ul{
+  flex: 1;
+  text-align: end;
+  padding-right:40px ;
+  
+  
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 5px 10px;
+    font-size:17px;
+    margin-top: 20px;
+   
+    
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(251, 248, 248);
+   
+}
+
+nav ul li a:hover{
+    color: rgb(218, 216, 216);
+}
+
+.container{
+    height: 200px;
+    width: 100%;
+    align-items: center;
+}
+.container .aligh{
+    position: absolute;
+    top: 230px;
+    left: 300px;
+    color: white;
+}
+
+.container .aligh h1{
+    font-size: 60px;
+    font-weight: -400;
+    
+}
+
+.container .aligh h2{
+    font-size:50px ;
+    margin-top: -10px;
+    padding-right: 400px;
+}
+.container .aligh p{
+    font-size: 23px;
+    padding: 5px;
+}
+ 
+.container .aligh button{
+    margin-left: 8px;
+    width: 165px;
+    height: 50px;
+    border: none;
+    background-color: rgba(5, 76, 5, 0.877);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: .5px solid;
+    
+}
+
+.container .aligh button:hover{
+    text-decoration: underline;
+}
+
+.get{
+    width: 100%;
+    height: 170px;
+    background-color: rgba(5, 76, 5, 0.877);
+    color: white;
+   
+}
+.get .post{
+    display: flex;
+}
+.para{
+    padding-left: 130px;
+    margin-top: 60px;
+
+}
+.input{
+    margin-top: 40px;
+   
+    margin-left: 50px;
+    height: 55px;
+    width: 415px;
+
+}
+.put{
+    height: 55px;
+    width: 395px;
+    margin-top: 40px;
+    margin-left: 9px;
+}
+
+.cla{
+    height: 55px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 9px;
+    color: white;
+    background-color: rgb(224, 73, 19);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+.cla:hover{
+    text-decoration: underline;
+    
+}
+
+.picture {
+   height: 200px;
+   padding-left: 230px;
+   margin-top: 60px;
+}
+
+.picture img{
+    width: 100%px;
+    
+}
+
+.container-fluide{
+    background-color: rgb(229, 222, 222);
+}
+
+
+ h2{
+    text-align: center;
+    
+    letter-spacing: -.2rem;
+    padding: 60px 0 30px 0;
+   
+}
+.col-3 img{
+    width: 370px;
+    height: 500px;
+    
+}
+
+.col-3 img:hover{
+   scale: 1.05;
+   
+}
+
+
+
+ .row .pai{
+   
+   padding: 60px 0 30px 0;
+   padding-left: 700px;
+}
+
+.paint{
+    width: 200px;
+    height: 60px;
+    justify-content: space-around;
+    border: none;
+    background-color:rgba(5, 76, 5, 0.877) ;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+ 
+.paint:hover{
+    text-decoration: underline;
+}
+
+
+   
+
+.move{
+    display:flex;
+    height: 3
+    600px;
+    
+}
+#pass{
+    padding-left: 210px;
+    padding-top: 150px;
+}
+#pass h1{
+    font-weight: 800;
+   padding-bottom: 60px;
+
+    
+ }
+ #pass p{
+    padding-bottom: 15px;
+    font-size:x-large;
+    
+    
+  
+ }
+
+ #photo img{
+    width: 600px;
+    height: 680px;
+    border-radius: 20px;
+    margin: 117px 40px;
+    
+ }
+ #pass button{
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color:  rgba(5, 76, 5, 0.877);
+    color: white;
+    font-weight: 500;
+ }
+
+ #pass button:hover{
+    text-decoration: underline;
+ }
+
+ .container-fluid{
+    background-color: rgb(237, 237, 241);
+ }
+
+ .container-fluid img:hover{
+   
+   scale: 1.02;
+ }
+
+
+ .text{
+    margin-top: 60px;
+    padding-left: 115px;
+
+ }
+ .box{
+    height: 700px;
+    width: 1300px;
+   position: absolute;
+  text-align: center;
+   
+   background-color: rgb(237, 237, 241) ;
+   
+ }
+ .box h1{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-weight: 1000;
+    font-size: 45px;
+ }
+ 
+
+ .box h4{
+    font-size: 25px;
+    font-weight: 700;
+    
+ }
+
+ .box p{
+    font-size: 20px;
+   color: black;
+ }
+ input{
+    height: 55px;
+    padding-right: 300px;
+ }
+ button{
+    width: 120px;
+    height: 55px;
+    background-color:rgb(224, 73, 19) ;
+    border: none;
+    color: white;
+   font-weight: 600;
+ }
+ button:hover{
+    text-decoration: underline;
+ }
+
+ .sugg{
+    width: 100%;
+    height: 760px;
+ }
+
+ .container-fluid{
+    height: 590px;
+    width: 100%;
+    
+ }
+ 
+ .container-fluid h1{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 45px;
+    font-weight: 700;
+    font-size: 45px;
+    
+ }
+ 
+ 
+
+ .col-4 .img3{
+    width: 496px;
+    height: 376.5px;
+    margin-left: -13px;
+
+ }
+
+ .col-4 .img2{
+    width: 496px;
+    height: 376.5px;
+    margin-left: -13px;
+
+ }
+ .col-4 .img1{
+    width: 496px;
+    height: 376.5px;
+    margin-left: -13px;
+
+ }
+
+ .col-4 .img3:hover{
+   scale: 1.05;
+   transition: 2s;
+ }
+
+ .col-4 .img2:hover{
+   scale: 1.05;
+   transition: 2s;
+ }
+
+ .col-4 .img1:hover{
+   scale: 1.05;
+   transition: 2s;
+   
+ }
+ 
+ 
+.pre{
+    position: absolute;
+    top:5390px;
+    left: 30px;
+    color: white;
+    font-weight: 800;
+
+ }
+
+
+
+ .pre1{
+    position: absolute;
+    top:5390px;
+    color: white;
+    font-weight: 800;
+ }
+
+ .pre2{
+    position: absolute;
+    top:5360px;
+    color: white;
+    font-weight: 800;
+ }
+
+
+ .car{
+    margin-left: 700px;
+    background-color: rgb(5, 87, 5);
+    width: 150px;
+    height: 60px;
+    font-weight: 500px;
+   font-size: 15px;
+ }
+
+ .pre3{
+    position: absolute;
+    top:6130px;
+    left: 30px;
+    color: white;
+    font-weight: 800;
+
+ }
+ 
+
+ .pre4{
+    position: absolute;
+    top:6130px;
+    color: white;
+    font-weight: 800;
+ }
+
+ .pre5{
+    position: absolute;
+    top:6130px;
+    color: white;
+    font-weight: 800;
+ }
+ .contain{
+    
+    background-color:rgb(237, 237, 241) ;
+ }
+ 
+ .daav{
+    background-color: rgb(7, 78, 7);
+   
+    height: 525px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+   padding-right: 170px;
+    gap: 110px;
+   
+ }
+
+ .do h1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 40px;
+    font-weight: 350;
+ }
+
+ 
+
+ .do h5 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  
+ }
+
+ .dot img{
+    width: 300px;
+    padding-top: 30px;
+ }
+ 
+ .clone{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+ }
+
+ .src ul {
+  display: flex;
+  gap: 30px;
+ }
+   .fa-brands{
+   font-size: 50px;
+   color: white;
+  }
+ 
+.pye{
+   color: white;
+   position: absolute;
+   left: 720px;
+   top: 6680px;
+   font-size: 18px;
+   font-weight: 600;
+ 
+}
+
+
+.koo{
+   position: absolute;
+   top:3980px;
+   color: rgb(245, 242, 242);
+   font-weight: 800;
+   left: 30px;
+}
+.haa{
+   position: absolute;
+   top:3980px;
+   color: rgb(244, 238, 238);
+   font-weight: 800;
+   left: 540px;
+}
+
+.nee{
+   position: absolute;
+   top:3980px;
+   color: rgb(244, 238, 238);
+   font-weight: 800;
+   left: 1040px;
+}
+
+
+
+.n{
+   position: absolute;
+  top: 1625px;
+   color: rgb(243, 239, 239);
+   font-weight: 800;
+  left: 120px;
+  font-size: 45px;
+  font-weight: 650;
+   text-transform: uppercase;
+}
+
+.i{
+   position: absolute;
+  top: 1625px;
+   color: rgb(243, 239, 239);
+   font-weight: 800;
+  left: 460px;
+  font-size: 45px;
+  font-weight: 650;
+   text-transform: uppercase;
+}
+
+.h{
+   position: absolute;
+  top: 1625px;
+   color: rgb(243, 239, 239);
+   font-weight: 800;
+  left: 812px;
+  font-size: 45px;
+  font-weight: 650;
+   text-transform: uppercase;
+}
+
+.a{
+   position: absolute;
+  top: 1625px;
+   color: rgb(243, 239, 239);
+   font-weight: 800;
+  left: 1280px;
+  font-size: 45px;
+  font-weight: 650;
+   text-transform: uppercase;
+}
+
+.l{
+   position: absolute;
+  top: 2135px;
+   color: rgb(243, 239, 239);
+   font-weight: 800;
+  left: 43px;
+  font-size: 45px;
+  font-weight: 650;
+   text-transform: uppercase;
+}
+
+
+.th{
+   position: absolute;
+  top: 2135px;
+   color: rgb(243, 239, 239);
+   font-weight: 800;
+  left: 523px;
+  font-size: 45px;
+  font-weight: 650;
+   text-transform: uppercase;
+}
+
+.ma{
+   position: absolute;
+  top: 2135px;
+   color: rgb(243, 239, 239);
+   font-weight: 800;
+  left: 873px;
+  font-size: 45px;
+  font-weight: 650;
+   text-transform: uppercase;
+}
+
+.nna{
+   position: absolute;
+  top: 2135px;
+   color: rgb(243, 239, 239);
+   font-weight: 800;
+  left: 1170px;
+  font-size: 45px;
+  font-weight: 650;
+   text-transform: uppercase;
+}
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
